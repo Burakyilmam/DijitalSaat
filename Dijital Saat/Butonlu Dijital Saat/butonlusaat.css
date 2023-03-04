@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#saat , #tarih ,#sicaklik ,#mesaj ,#sehir{
+    display:none;
+}
+body{
+    background-color: white;
+    width: 100%;
+}
+#anadiv{
+    width: 50%;
+    height: 200px;
+    background-color: black;
+    border:5px solid orangered;
+    padding-top: 80px;
+    position: relative;
+    margin: auto;
+    margin-top:200px;
+
+}
+#saat{
+    width: 100%;
+    color:white;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 10px;
+}
+#tarih{
+    width: 100%;
+    color:white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+}
+#sicaklik{
+    width: 100%;
+    color:white;
+    text-align: center;
+    font-size: 50px;
+}
+#mesaj{
+    width: 100%;
+    color:white;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 30px;
+}
+#sehir{
+    width: 100%;
+    color:white;
+    text-align: center;
+    font-size: 50px;
+}
+#butonlar{
+    width: 50.6%;
+    position: relative;
+    margin: auto;
+}
+#butonlar div{
+    float:left;
+    width: 25%;
+}
+#butonlar button{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color:white;
+}
+#gucbtn{
+    border-left:5px solid orangered;
+    border-right: 2.5px solid orangered;
+    border-bottom: 5px solid orangered;
+}
+#saatbtn{
+    border-left:2px solid orangered;
+    border-right: 2.5px solid orangered;
+    border-bottom: 5px solid orangered;
+}
+#tarihbtn{
+    border-left:2.5px solid orangered;
+    border-right: 2.5px solid orangered;
+    border-bottom: 5px solid orangered;
+}
+#sicaklikbtn{
+    border-left:2.5px solid orangered;
+    border-right: 5px solid orangered;
+    border-bottom: 5px solid orangered;
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#anadiv{
+    width: 50%;
+    height: 200px;
+    background-color: black;
+    border:5px solid orangered;
+    padding-top: 10px;
+}
+#saat{
+    width: 100%;
+    color:white;
+    font-size: 60px;
+    text-align: center;
+}
+#tarih{
+    width: 100%;
+    color:white;
+    text-align: center;
+    font-size: 35px;
+}
+#sicaklik{
+    width: 100%;
+    color:white;
+    text-align: center;
+    font-size: 35px;
+}
+#sehir{
+    width: 100%;
+    color:white;
+    text-align: center;
+    font-size: 35px;
+}
